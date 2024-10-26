@@ -2,47 +2,64 @@
 
 /* Estilização global */
 body {
-    font-family: Arial, sans-serif;
-    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Fundo degradê laranja */
-    color: #333; /* Texto escuro */
-    margin: 0;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
-  /* Estilização do container principal */
-  .container {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-    text-align: center;
-  }
-  
-  /* Estilização do título principal */
-  h1 {
-    font-size: 24px;
-    color: #333;
-    margin-bottom: 20px;
-  }
-  
-  /* Estilização do botão */
-  button {
-    font-size: 16px;
-    padding: 10px 20px;
-    color: #fff;
-    background-color: #27ae60;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  button:hover {
-    background-color: #219150;
-  }
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #ff7e5f, #feb47b); /* Fundo degradê laranja */
+  color: #333; /* Texto escuro */
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Estilização do container principal */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Estilização do título principal */
+h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+}
+
+/* Estilização de cada mensagem */
+.mensagem {
+  padding: 15px;
+  margin: 15px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fafafa;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover state para cada mensagem */
+.mensagem:hover {
+  background-color: #f0f0f0;
+}
+
+/* Estilização dos textos das mensagens */
+.mensagem h1 {
+  font-size: 22px;
+  color: #27ae60; /* Verde para sucesso */
+}
+
+.mensagem h2 {
+  font-size: 20px;
+  color: #e74c3c; /* Vermelho para erro */
+}
+
+.mensagem h3 {
+  font-size: 18px;
+  color: #f39c12; /* Amarelo para aviso */
+}

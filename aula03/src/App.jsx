@@ -1,18 +1,14 @@
 import React from 'react'
-import ListaDeLivros from './components/ListaDeLivros'
+import Mensagem from './components/Mensagem'
+import './App.css'
 
 const App = () => {
-
-  const livros = [
-    { titulo: '1984', autor: 'George Orwell', ano: 1949 },
-    { titulo: 'To Kill a Mockingbird', autor: 'Harper Lee', ano: 1960 },
-    { titulo: 'The Great Gatsby', autor: 'F. Scott Fitzgerald', ano: 1925 },
-  ]
-
   return (
-    <div>
-      <h1>Lista de Livros</h1>
-      <ListaDeLivros livros={livros} />
+    <div className="container">
+      <h1>Renderização Condicional Simples</h1>
+      <Mensagem tipo={"sucesso"} />
+      <Mensagem tipo={"erro"} />
+      <Mensagem tipo={"aviso"} />
     </div>
   )
 }
