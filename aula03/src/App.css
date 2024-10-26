@@ -1,0 +1,48 @@
+/* App.css */
+
+/* Estilização global */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Fundo degradê laranja */
+    color: #333; /* Texto escuro */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Estilização do container principal */
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  /* Estilização do título principal */
+  h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilização do botão */
+  button {
+    font-size: 16px;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #27ae60;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #219150;
+  }
