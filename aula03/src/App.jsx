@@ -1,14 +1,10 @@
 import React from 'react'
-import Mensagem from './components/Mensagem'
-import './App.css'
+import TodoList from './components/TodoList'
 
 const App = () => {
   return (
-    <div className="container">
-      <h1>Renderização Condicional Simples</h1>
-      <Mensagem tipo={"sucesso"} />
-      <Mensagem tipo={"erro"} />
-      <Mensagem tipo={"aviso"} />
+    <div>
+      <TodoList />
     </div>
   )
 }
