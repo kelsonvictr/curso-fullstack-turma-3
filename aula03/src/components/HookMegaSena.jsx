@@ -6,7 +6,7 @@ const HookMegaSena = () => {
     const [numeroSorteado, setNumeroSorteado] = useState()
     const [numerosSorteados, setNumerosSorteados] = useState([])
 
-    function sortearNumero() {
+    function sortearNumero() { 
         if (numerosSorteados.length < 6) {
             let sorteado = Math.floor(Math.random() * 60) + 1
             setNumeroSorteado(sorteado)
