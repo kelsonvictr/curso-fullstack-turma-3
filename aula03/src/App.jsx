@@ -1,10 +1,10 @@
 import React from 'react'
-import TodoListRevisao from './components/TodoListRevisao'
+import HookMegaSena from './components/HookMegaSena'
 
 const App = () => {
   return (
     <div>
-      <TodoListRevisao />
+      <HookMegaSena />
     </div>
   )
 }
