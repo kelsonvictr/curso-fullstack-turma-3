@@ -1,0 +1,22 @@
+{
+    "artigos": [
+      {
+        "id": 1,
+        "titulo": "Inteligência Artificial e o Futuro do Trabalho",
+        "resumo": "Uma análise do impacto da IA nos empregos ao redor do mundo.",
+        "conteudo": "A inteligência artificial está transformando a maneira como trabalhamos. Com o avanço da automação, muitos empregos tradicionais estão sendo reinventados..."
+      },
+      {
+        "id": 2,
+        "titulo": "Como a Web3 está Mudando a Internet",
+        "resumo": "Descubra o que é Web3 e como ela promete descentralizar a internet.",
+        "conteudo": "A Web3 representa uma nova era na internet, baseada em blockchain e descentralização. Ao invés de grandes empresas controlarem os dados..."
+      },
+      {
+        "id": 3,
+        "titulo": "Top 5 Tecnologias para Ficar de Olho em 2024",
+        "resumo": "Conheça as tendências tecnológicas que estão moldando o futuro.",
+        "conteudo": "1. Computação Quântica. 2. 5G e além. 3. Realidade Aumentada e Virtual..."
+      }
+    ]
+  }
