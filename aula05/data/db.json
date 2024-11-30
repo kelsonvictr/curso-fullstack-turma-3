@@ -1,0 +1,28 @@
+{
+    "teste": [
+        {
+            "id": 1,
+            "mensagem": "Backend fake funcionando!"
+        }
+    ],
+    "alunos": [
+        {
+            "id": 1,
+            "nome": "Maria Silva",
+            "email": "maria@ufpb.br",
+            "curso": "física"
+        },
+        {
+            "id": 2,
+            "nome": "João Silva",
+            "email": "joao@gmail.com",
+            "curso": "letras"
+        },
+        {
+            "id": 3,
+            "nome": "José Silva",
+            "email": "jose@gmail.com",
+            "curso": "arquitetura"
+        }
+    ]
+}
