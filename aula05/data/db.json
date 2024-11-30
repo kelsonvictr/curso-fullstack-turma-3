@@ -40,6 +40,12 @@
       "email": "enrico@peter.com",
       "curso": "Sistemas",
       "id": 6
+    },
+    {
+      "nome": "dsa",
+      "email": "saddsa",
+      "curso": "dsdsds",
+      "id": 7
     }
   ]
 }
